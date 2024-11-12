@@ -1,0 +1,404 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <title>QUINQUEWare - Services</title>
+		<link rel="shortcut icon" type="x-icon" href="img/logo.png">
+		<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="
+	    sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	    <link rel="stylesheet" type="text/css" href="stylesheet-index.css">
+	    <style type="text/css">
+	    	body.dark-mode .container-service{
+	    		background-color: #1c1c1c;
+	    		color:#c6c6c6;
+	    		overflow-x: hidden;
+	    		overflow-y: hidden;
+	    	}
+	    	body{
+	    		overflow-x:hidden;
+
+	    	}
+	    	.container-service{
+	    		min-height: 100vh!important;
+	    		width: 100%;
+	    		display: flex; /* Add flex display */
+	    		justify-content: center;
+	    		align-items: center; /* Center the content vertically */
+	    		background: #fff;
+	    		margin: 0; /* Remove default margin */
+	    padding: 0; /* Remove default padding */
+	    		padding-bottom: 15rem;
+	    		padding-top: 5rem;
+
+	    	}
+	    	.service-wrapper{
+	    		height: 100%; /* Adjusted height to fill the whole container-service */
+	    	}
+	    	.service{
+	    		display: flex;
+	    		flex-direction: column;
+	    		align-items: center;
+	    		overflow: hidden;
+	    	}
+	    	.service-wrapper h1{
+	    		color: #fa3d3b;
+	    		padding-top: 5px;
+	    		margin-bottom: 3rem;
+	    		font-size: 70px;
+	    		text-align: center;
+	    		letter-spacing: 4px;
+	    		background-color: #fff;
+	    		background: linear-gradient(8deg,#fa3d3b 0%,#53212b 41%,#bd3944 100%);
+	    		-webkit-background-clip:text;
+	    		-webkit-text-fill-color:transparent;
+	    		position: relative;
+	    		align-items: center; /* Center the content vertically */
+	    	}
+	    	.service-wrapper h1::after{
+	    		content: '';
+	    		margin-bottom:0;
+	    		position: absolute;
+	    		top:100%;
+	    		left:10%;
+	    		height: 5px;
+	    		width:80%;
+	    		border-radius: 8px;
+	    		background-color:#fa3d3b;
+
+	    	}
+	    	.cards img{
+	    		justify-content: center;
+	    		margin-top: 10px;
+	    		margin-bottom: 10px;
+	    		width: 60px;
+	    		height: auto;
+
+	    	}
+	    	.cards{
+	    		flex-basis: 50%;
+	    		display: grid;
+	    		grid-template-columns: repeat(3, 0fr);
+	    		gap: 10px;
+	    		margin-top: 100px;
+	    		justify-content: center; /* Center the cards horizontally */
+	    	}
+
+	    	.card{
+	    		height: 220px;
+	    		width: 210px;
+	    		background-color:#fa3d3b ;
+	    		padding: 3% 8%;
+	    		border: 0.2px solid #fb7a6d;
+	    		border-radius: 8px;
+	    		transition: .6s;
+	    		display: flex;
+	    		align-items: center;
+	    		flex-direction: column;
+	    		overflow: hidden;
+	    		position: relative;
+	    		box-shadow: 0 1.5rem 2rem -0.75rem hsla(0, 0%, 0%, .50);
+	    	}
+	    	.card::after{
+	    		content: '';
+	    		position: absolute;
+	    		top: 150%;
+	    		left: -200px;
+	    		width: 120%;
+	    		transform: rotate(50deg);
+	    		background-color: #fff;
+	    		height: 18px;
+	    		filter: blur(30px);
+	    		opacity: 0.5;
+	    		transition: 1s;
+	    	}
+	    	.card:hover::after{
+	    		width: 225%;
+	    		top: -100%;
+	    	}
+	    	.card h2{
+	    		color: #fff;
+	    		font-size: 18px;
+	    		font-weight: 600;
+	    		text-align: center;
+	    		letter-spacing: 1px;
+	    	}
+	    	.card p{
+	    		text-align: left;
+	    		width: 100%;
+	    		margin: 2px 0;
+	    		color: #f4f4f4;
+	    		font-size: 13px;
+	    		font-family: 'Montserrat', sans-serif;
+	    	}
+	    	.card:hover{
+	    		background-color: black;
+	    		transform: translateY(-8px);
+	    		border-color: #fb7a6d;
+	    	}
+	    	.cards a{
+	    		text-decoration: none;
+	    	}
+
+	    .row{
+        display: flex;
+        height: 88vh; /* Adjusted height */
+        align-items: center;
+        margin-top: 3rem;
+
+        }
+        .slider-col {
+        flex-basis: 50%;
+        max-width: 50%; /* Add this to limit the max width of the slider to 50% */
+    } 
+        .container-slider{
+        padding: 2rem;
+        padding-right: 2rem;
+        padding-top: 9rem;
+        margin-bottom: 20px;
+
+       }
+       .slider-wrapper{
+        position: relative;
+        max-width: 100rem;
+        margin: 0 auto;
+       }
+       .slider{
+        display: flex;
+        aspect-ratio: 16/9;/* for the aspect ratio of the whole slider img */
+        overflow-x: hidden;
+        scroll-snap-type: x mandatory; /* for the scroll slider to snap for 1 image only horizontally */
+        scroll-behavior: smooth; /* for smooth scrolling on slider*/
+        box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 1); /*shadow of the box of the slider*/
+        border-radius: 0.5rem;/**/
+
+       }
+       .slider img{
+        flex: 1 0 100%;
+        width: 100%;
+        scroll-snap-align: start;
+        object-fit: cover;
+          
+        animation: slide 12s infinite; /* Adds animation properties for the image slider to slide to the right automatically */
+       }
+            @keyframes slide {
+        0%, 100% {
+            transform: translateX(0);
+        }
+        16.66% {
+            transform: translateX(0);
+        }
+        33.33% {
+            transform: translateX(-100%);
+        }
+        50% {
+            transform: translateX(-100%);
+        }
+        66.66% {
+            transform: translateX(-200%);
+        }
+        83.33% {
+            transform: translateX(-200%);
+        }
+        100% {
+            transform: translateX(-300%);
+        }
+    }
+    }
+    .slider.paused img {
+        /* Add styles for the images when the slider is paused */
+        animation-play-state: paused;
+    }
+       .slider-nav{
+        display: flex; 
+        column-gap: 1rem;
+        position: absolute;
+        bottom:1rem;
+        left: 50%;/*Center the nav*/
+        transform: translateX(-50%);/*Move the navigation to the left by half of it's width, auto centers*/
+        z-index: 1;/* Ensures the nav to sit on top of the slider */
+       }
+       .slider-nav a{
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: #fa3d3b;
+        border-radius: 50%;
+        opacity: 0.75;
+        transition: opacity ease 250ms; /*Targets the opacity property that sets the animation function to ease in just 250ms*/
+       }
+       .slider-nav a:hover{
+        opacity: 5;
+        background-color:#65651b;
+
+       }
+       .anim{
+	opacity: 0;
+	transform: translateY(90px);
+	animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+	    </style>
+	</head>
+	<body>
+		<div class="container-fluid p-0">
+			<div class="container-nav">
+	            <nav class="navbar navbar-light ">
+	                <a href="Index.html" style="text-decoration: none;"><img src="img/logo-nav.png" class="logo"></a>
+	                <ul>	
+	                    <li><a href="Index.html">Home</a></li>
+	                    <li><a href="About.html">About</a></li>
+	                    <li><a href="#">Services</a></li>
+	                    <li><a href="Portfolio.html">Portfolio</a></li>
+	                    <li><a href="Contact.html">Contact</a></li>
+	                </ul>
+	              <button id="mode-toggle" class="mode-toggle-light"><i class="fas fa-moon"></i></button>
+	            </nav>
+	        </div>
+	    </div>
+	    <section class="container-service container-fluid">
+	    	<div class="service-wrapper row" >
+	    		<h1 class="anim" style="margin-bottom: 0; padding-top:0;">SERVICES</h1>
+		    		<div class="row">
+		    			<div class="col-md-6 slider-col" style="padding-top:0; margin-top: 0;">
+		    				<div class="container-slider">
+	                            <div class="slider">
+	                                <img id="slide1"src="img/img1.jpg">
+	                                <img id="slide2"src="img/Graphics.jpg">
+	                                <img id="slide3"src="img/Marketing.jpg">
+	                                <img id="slide4"src="img/Editing.jpg">
+	                                <img id="slide5"src="img/Design.jpg">
+	                                <img id="slide6"src="img/Customer.jpg">
+	                            </div>
+	                            
+	                        </div>
+	                    </div>
+			    		<div class="col-md-6 slider-col">
+				    		<div class="cards" style="align-items: center;">
+				    			<a href="#slide1"><div class="card">
+				    				<img src="img/1.png">
+				    				<h2>Web Development</h2>
+				    				<p>Specializes in crafting dynamic and responsive websites.</p>
+				    			</div></a>
+				    			<a href="#slide2"><div class="card">
+				    				<img src="img/2.png">
+				    				<h2>Graphics Design</h2>
+				    				<p>Transforms ideas into visually stunning designs, delivering graphics that captivate and communicate the essence of your brand.</p>
+				    			</div></a>
+				    			<a href="#slide3"><div class="card">
+				    				<img src="img/3.png">
+				    				<h2>Marketing</h2>
+				    				<p>Elevates your brand through strategic campaigns, leveraging innovative approaches to reach and engage your target audience effectively.</p>
+				    			</div></a>
+				    			<a href="#slide4"><div class="card">
+				    				<img src="img/4.png">
+				    				<h2>Editing</h2>
+				    				<p>Refineefines and enhances your content with meticulous editing, ensuring clarity, coherence, and a polished presentation for maximum impact.</p>
+				    			</div></a>
+				    			<a href="#slide5"><div class="card">
+				    				<img src="img/5.png">
+				    				<h2>Web Design</h2>
+				    				<p>With an emphasis on aesthetics and user experience.</p>
+				    			</div></a>
+				    			<a href="#slide6"><div class="card">
+				    				<img src="img/6.png">
+				    				<h2>Customer Services</h2>
+				    				<p>Dedicated to exceptional customer experiences, QuinqueWare provides reliable and responsive service, prioritizing client satisfaction and building lasting relationships.</p>
+				    			</div></a>
+				    	</div>
+			    	</div>
+	    	</div>
+	    </section>
+	      <footer class="footer">
+           <div class="footer-container">
+                    
+    
+               <h3>QUINQUEWare | 2023</h3>
+                  <ul class="soc">
+                        <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        <li><a href=""><ion-icon name="logo-google"></ion-icon></a></li>
+                    </ul>
+           </div>
+        </footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	    <script>
+	        const modeToggleBtn = document.getElementById('mode-toggle');
+	        const body = document.body;
+
+	        // Check if the user's mode preference is stored in local storage
+	        const currentMode = localStorage.getItem('mode');
+
+	        // Set the initial mode based on the user's preference
+	        if (currentMode === 'dark') {
+	            enableDarkMode();
+	        } else {
+	            enableLightMode();
+	        }
+
+	        // Toggle mode when the button is clicked
+	        modeToggleBtn.addEventListener('click', () => {
+	            if (body.classList.contains('dark-mode')) {
+	                enableLightMode();
+	            } else {
+	                enableDarkMode();
+	            }
+	        });
+
+	        // Function to enable Dark Mode
+	        function enableDarkMode() {
+	            body.classList.add('dark-mode');
+	            modeToggleBtn.classList.remove('mode-toggle-light');
+	            modeToggleBtn.classList.add('mode-toggle-dark');
+	            modeToggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+	            // Store the user's mode preference
+	            localStorage.setItem('mode', 'dark');
+	        }
+
+	        // Function to enable Light Mode
+	        function enableLightMode() {
+	            body.classList.remove('dark-mode');
+	            modeToggleBtn.classList.remove('mode-toggle-dark');
+	            modeToggleBtn.classList.add('mode-toggle-light');
+	             modeToggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
+	            // Store the user's mode preference
+	            localStorage.setItem('mode', 'light');
+	        }
+	        // SLIDER (WHEN A CARD IS PRESSED IT THE SLIDER WILL SLIDE TO THE CORRESPONDING SLIDER OF THE CARD(e.g Card1/IMG 1))
+	        // Get references to the slider and cards
+const slider = document.querySelector('.slider');
+const cards = document.querySelectorAll('.card');
+
+ // Function to pause the slider animation
+    function pauseSlider() {
+        slider.classList.add('paused');
+    }
+// Add click event listeners to each card
+cards.forEach((card, index) => {
+    card.addEventListener('click', () => {
+        // Calculate the scroll position based on the index of the card
+        const scrollPosition = index * 100;
+
+        // Set the scrollLeft property of the slider to move to the desired position
+        slider.scrollLeft = scrollPosition;
+
+        // Optionally, you can add smooth scrolling by using the scrollIntoView method
+        // slider.scrollLeft = scrollPosition;
+        // slider.scrollIntoView({ behavior: 'smooth', block: 'start' });
+         pauseSlider();
+    });
+});
+	    </script>
+
+	        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	</body>
+	</html>

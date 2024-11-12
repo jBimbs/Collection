@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Sifonn';
+    src:  url('font/SIFONN_BASIC.otf') format('OpenType');
+    }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Abhaya Libre", sans-serif;
+    box-sizing: border-box;
+
+}
+.container{
+    padding-top: 5rem;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+/*NAV-BAR*/
+.logo img {
+    max-width: 100px; /* Adjust the value as needed */
+    height: auto; /* Ensures the aspect ratio is maintained */
+    margin-left: 50px; /* Adjust the margin as needed for spacing */
+}
+.navbar .logo img{
+    width: 60px;
+    height: 60px;
+}
+.navbar{
+    width: 100%;
+    z-index: 2;
+    background-color:#333;
+    position: fixed;
+    height: 8%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .navbar h1 {
+        font-size: 20px;
+         padding-right: 45rem;
+        color: #ccc;
+        
+    }
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ccc;
+    text-transform: uppercase;
+
+}
+.navbar ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #32CD32;
+    position: absolute;
+    bottom: -5px;   
+    top: 10;
+    overflow-y: 0;
+    left: 0;
+    transition: all 0.5s ease;
+}
+.navbar a:hover,    
+.navbar a.active{
+   transform: translateY(5px);
+    transition: all .5s ease;
+    color: #32CD32;
+    overflow-y: 0;
+}
+.navbar ul li a:hover::after{
+ width: 100%;
+ overflow-y: 0;
+}
+.container h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Sifonn',sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    
+}
+h2{
+    color: #fd4556;
+}
+h2::after {
+    content: "";
+    display: block;
+    width: 220px; /* Adjust width */
+    height: 2px; /* Adjust height */
+    color: #bd3944; /* Adjust color */
+    position: absolute;
+    bottom: -10px; /* Adjust position */
+    left: 50%; /* Position in the middle */
+    transform: translateX(-50%); /* Center horizontally */
+}
+.container-table{
+    align-self: center;
+    overflow-y: auto;
+    max-height: 100vh;
+    width: 80%;
+    margin: 0 auto; /* Center the table horizontally */
+     display: flex;
+        flex-direction: column;
+        padding-bottom: 20px; /* Add padding after the table */
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.container-table input{
+    align-items: center;
+}
+.btn-content{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: solid 2px black;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    animation-delay: 0.8s;
+    overflow: hidden;
+}
+.btn-content a{
+    text-decoration: none;
+    padding-top: .7rem;
+    color: #fa3d3b  ;
+}
+.btn-content a:hover{
+    color: black;
+    transition: 0.5s ease;
+}
+
+span{
+    background: black;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s ease;
+}
+
+.btn-content:hover span{
+    width: 100%;
+}
+table{
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+}
+.btn-content:hover{
+    border: none;
+    color: whitesmoke;
+}
+table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+table td:nth-child(2){
+    width: 200px;
+
+}
+table td:nth-child(3){
+    width: 100px;
+    text-align: center;
+
+}
+table td:nth-child(4){
+    width: 100px;
+    text-align: center;
+
+}
+table td:nth-child(5){
+    width: 100px;
+    text-align: center;
+}
+table td:nth-child(6){
+    width: 100px;
+    text-align: center;
+}table td:nth-child(7){
+    width: 100px;
+    text-align: center;
+}
