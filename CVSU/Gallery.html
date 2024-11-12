@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gallery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style type="text/css">
+    	  body{
+                background-color: #f4f4f4;
+            }
+            h2{
+            	margin-bottom: 20px;
+            	margin-left: 2rem;
+            }
+		.about-us{
+        padding: 2rem;
+        padding-top: 9rem;
+
+       }
+       .container-slider h2{
+       	font-size: 50px	;
+        color:  #24262b;
+        margin-left: 25%;
+       }
+       .slider-wrapper{
+        position: relative;
+        max-width: 48rem;
+        margin: 0 auto;
+       }
+       .slider{
+        display: flex;
+        aspect-ratio: 16/9;/* for the aspect ratio of the whole slider img */
+        overflow-x: hidden;
+        scroll-snap-type: x mandatory; /* for the scroll slider to snap for 1 image only horizontally */
+        scroll-behavior: smooth; /* for smooth scrolling on slider*/
+        box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 1); /*shadow of the box of the slider*/
+        border-radius: 0.5rem;/**/
+
+       }
+       .slider img{
+        flex: 1 0 100%;
+        scroll-snap-align: start;
+        object-fit: cover;
+          
+        animation: slide 12s infinite; /* Adds animation properties for the image slider to slide to the right automatically */
+       }
+             @keyframes slide { /*Key frames to slide to the right in a loop */
+        0%, 100% {
+            transform: translateX(0); /*0%, 100%: At the start and end of the animation (0% and 100%), the element's horizontal position (translateX) is set to 0. This means the element is in its initial position.*/
+        }
+        33.33% {
+            transform: translateX(0);/*33.33%: At one-third of the animation duration, the element's horizontal position remains at 0. This is effectively a pause in the middle of the animation.*/
+        }
+        66.66% {
+            transform: translateX(-100%);/*66.66%: At two-thirds of the animation duration, the element's horizontal position is transformed to -100%. This means the element moves to the left by 100% of its own width.*/
+        }
+        100% {
+            transform: translateX(-200%);/*100%: At the end of the animation, the element's horizontal position is transformed to -200%. This moves the element further to the left by 200% of its width, which effectively resets the element's position to where it was at the start (0% position).*/
+             /* For 3 slides of image to the right then going back to slide 1 */
+        }
+    }
+       .slider-nav{
+        display: flex; 
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;/*Center the nav*/
+        transform: translateX(-50%);/*Move the navigation to the left by half of it's width, auto centers*/
+        z-index: 1;/* Ensures the nav to sit on top of the slider */
+       }
+       .slider-nav a{
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: #046307;
+        border-radius: 50%;
+        opacity: 0.75;
+        transition: opacity ease 250ms; /*Targets the opacity property that sets the animation function to ease in just 250ms*/
+       }
+       .slider-nav a:hover{
+        opacity: 5;
+        background-color:#65651b;
+
+       }
+       .slider-row{
+        display: flex;
+        height: 88%;
+        align-items: center;
+       }
+       .slider-col{
+        flex-basis: 50%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+       }
+       .slider-row .slider-col .slider-desc h3{
+        font-family: 'Abhaya Libre', sans-serif;
+         font-size: 50px;
+       }
+       .slider-row .slider-col .slider-desc p{
+        color:rgb(76, 76, 76);
+        font-family: 'Abhaya Libre';
+        line-height: 25px;
+        font-size: 17px;
+       }
+	</style>
+</head>
+<body>
+		<div class="container-nav">
+            <div class="navbar">
+                <img src="img/logo.png" class="logo">
+                <nav>
+                    <ul style="color:whitesmoke;">
+                        <li style="color: white;"><a href="Index.html">Home</a></li> 
+                        <li><a href="About.html">About</a></li> 
+                        <li><a href="Gallery.html">Gallery</a></li> 
+                        <li><a href="Contact.html">Contact</a></li> 
+                    </ul>
+                </nav>
+                <img src="" class="menu-icon">
+            </div>
+        </div>
+        <section class="container-slider">
+        	<h2>Gallery of CVSU - Bacoor Campus</h2>
+                <div class="slider-row">
+                    <div class="slider-col">
+                        <div class="slider-wrapper">
+                            <div class="slider">
+                                <img id="slide1"src="img/img1.jpg">
+                                <img id="slide2"src="img/img2.jpg">
+                                <img id="slide3"src="img/img3.jpg">
+                            </div>
+                            <div class="slider-nav">
+                                <a href="#slide1"></a>
+                                 <a href="#slide2"></a>
+                                  <a href="#slide3"></a>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="slider-col">
+                        <div class="slider-desc">
+                        <h3>Goals of the CvSU Bacoor City Campus</h3>
+                        <p>In support to the Vision and Mission of the University, CvSU – Bacoor City Campus shall:<br>
+1. provide quality and affordable education which promotes intellectual growth, academic excellence and moral integrity;<br>
+2. prepare students to meet the demands of the global market and respond to the society’s needs<br>
+3. develop innovative and scholarly researchers who have the ability to create new understanding in quest for quality research through <br>inquiry, analysis and problem solving; and<br>
+4. produce globally competitive graduates with full competence in their fields of study.
+                        </p>
+                    </div>
+                     </div>
+                 </div>
+        </section>
+        <section class="container-team">
+            <div class="center">
+                <h1>Meet the Team</h1>
+            </div>
+            <div class="team-content">
+                <div class="box">
+                    <img src="img/JB.jpg">
+                    <h3>John Benjamin F. Santillan</h3>
+                    <h5>Programmer</h5>
+                    <div class="icons">
+                       <a href="https://www.facebook.com/profile.php?id=100088488845061"><i class="fab fa-facebook-f"></i></a>
+                           <a href=""><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/Ultra.jpg">
+                    <h3>Harold Vonn Ultra</h3>
+                    <h5>Graphic Designer</h5>
+                    <div class="icons">
+                       <a href="hhttps://www.facebook.com/Vonnzxc?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                           <a href=""><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/Paraon.jpg">
+                    <h3>John Aldrin Paraon</h3>
+                    <h5>Presenter</h5>
+                    <div class="icons">
+                       <a href="https://www.facebook.com/johnaldrin.paraon?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                           <a href=""><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/Magaling.jpg">
+                    <h3>Alyssa Magaling</h3>
+                    <h5>Layout Designer</h5>
+                    <div class="icons">
+                       <a href="https://www.facebook.com/jehnalyssamagaling?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                           <a href=""><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+                 <div class="box">
+                    <img src="img/Avellano.png">
+                    <h3>Krishan Avellano</h3>
+                    <h5>Layout Designer</h5>
+                    <div class="icons">
+                       <a href="https://www.facebook.com/krishan.isabelle?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                           <a href=""><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+	        <div class="footer-container">
+	            <div class="footer-row">
+	                  <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="Contact.html">Contact Form</a></li>
+                    </ul>
+                </div>
+	                 <div class="footer-col">
+	                    <h4>About us</h4>
+	                    <ul>
+	                        <li><a href="About.html">CVSU Bacoor</a></li>
+	                         <li><a href="Gallery.html">CVSU's Gallery</a></li>
+	                         
+	                    </ul>
+	                </div>
+	                  <div class="footer-col">
+                       <h4>Follow us</h4>
+                       <div class="social-links">
+                           <a href="https://web.facebook.com/CaviteStateU?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+                           <a href=""><i class="fab fa-google"></i></a>
+                       </div>
+                   </div>
+	            </div>
+	            <h3>2023 Cavite State University-Bacoor</h3>
+	        </div>
+     	</footer>
+</body>
+</html>
