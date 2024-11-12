@@ -1,0 +1,1174 @@
+[
+{
+    "name": "Ramon Joshua Buado",
+    "year": "2nd Year",
+    "section": "7",
+    "age": 20,
+    "address": {
+        "street": "Ruby Street",
+        "barangay": "San Nicolas III",
+        "city": "Bacoor City ",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+
+{
+    "name": "Anthony Villamor",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+    "address": {
+        "street": "Pagkakaisa st.",
+        "barangay": "Molino IV",
+        "city": "Bacoor City ",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+
+{
+    "name": "John Aldrin Paraon",
+    "age": 19,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "Blk 3 Lot 6 Mercury ST.",
+        "barangay": "Salawag",
+        "city": "Dasmariñas City ",
+        "zip_code": 4114
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+
+
+{
+    "name": "Harold Vonn Ultra",
+    "age": 21,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "Kapayapaan Street",
+        "barangay": "Molino IV",
+        "city": "Bacoor City",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+
+{
+    "name": "John Benjamin Santillan",
+    "age": 21,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "188 Captain B. Paredes ",
+        "barangay": "Poblacion 1-A",
+        "city": "Imus City",
+        "zip_code": 4103
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+
+{
+    "name": "Ivana Millosa",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": " Phase 4 Paliparan Site",
+        "barangay": "Paliparan 3",
+        "city": "Dasmariñas City ",
+        "zip_code": 4114
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+{
+    "name": "Raina Guinday",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "Marigold Street",
+        "barangay": "Queens Row West",
+        "city": "Bacoor City ",
+        "zip_code": 4103
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.25
+        }
+    ]
+},
+{
+    "name": "Mikaela Cortes",
+    "age": 21,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "Blk 5 Lot 8 Jade Street ",
+        "barangay": "Molino III",
+        "city": "Bacoor City ",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 2
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.5
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.25
+        }
+    ]
+},
+{
+    "name": "Zildjian Bermas",
+    "age": 21,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "59 Kalugdan Compound Apt II  ",
+        "barangay": "Ligas III",
+        "city": "Bacoor City ",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 2.25
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 2
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+{
+    "name": "Nathaniel De Leon",
+    "age": 21,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "241 Green Revolution Ext. St. ",
+        "barangay": "B.F Int'l Village, CAA",
+        "city": "Las Piñas City ",
+        "zip_code": 1740
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+{
+    "name": "Trisha Tachagon",
+    "age": 21,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "Aratelis",
+        "barangay": "Malagasang II-A",
+        "city": "Imus City",
+        "zip_code": 4103
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 3
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 2.75
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 2.25
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 2.00
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 3.00
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 3.00
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 2.00
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 2.75
+        }
+    ]
+},
+
+{
+    "name": "Nicole Almonicar",
+    "age": 21,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "Blk 5 Lot 8 Jade Street ",
+        "barangay": "Molino III",
+        "city": "Bacoor City ",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 2
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.5
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.25
+        }
+    ]
+},
+{
+    "name": "Alyssa Magaling",
+    "age": 21,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "59 Kalugdan Compound Apt II  ",
+        "barangay": "Ligas III",
+        "city": "Bacoor City ",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 2.25
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 2
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+{
+    "name": "Krishan Avellano",
+    "age": 21,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "Ilang-Ilang ",
+        "barangay": "Molino 7",
+        "city": "Bacoor City ",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 2.25
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 2
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+
+{
+    "name": "Adrian Cardenas",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+
+    "address": {
+        "street": "blk 1 lot 14 south gawaran",
+        "barangay": "Molino 7",
+        "city": "Bacoor City ",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 2
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.5
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.25
+        }
+    ]
+},
+{
+    "name": "Emmanuel Francisco",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+    "address": {
+        "street": "sampaguita st",
+        "barangay": "Molino 7",
+        "city": "Bacoor City",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+{
+    "name": "Benjamin Martinez",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+    "address": {
+        "street": "Durian St",
+        "barangay": "Talon Uno",
+        "city": "Las Piñas City ",
+        "zip_code": 1740
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+{
+    "name": "Kurt Apun",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+    "address": {
+        "street": "106 lovely homes Sampaloc site ",
+        "barangay": "Almanza uno ",
+        "city": "Las Piñas City ",
+        "zip_code": 1750
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+{
+    "name": "Lorna Basak",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+    "address": {
+        "street": "#082 Genai",
+        "barangay": "San Nicolas 3",
+        "city": "Bacoor City",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+{
+    "name": "Luisha Zaballero",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+    "address": {
+        "street": "13 Apollo 4 ",
+        "barangay": "Talon sinko  ",
+        "city": "Las Piñas City ",
+        "zip_code": 1747
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+{
+    "name": "Crisha Reyes",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+    "address": {
+        "street": "Finland St. SMC ",
+        "barangay": "Salawag",
+        "city": "Dasmariñas Cavite",
+        "zip_code": 4114
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+{
+    "name": "Mel Joy Lusuegro",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+    "address": {
+        "street": "Dedikasyon st.",
+        "barangay": "Molino IV",
+        "city": "Bacoor City",
+        "zip_code": 4102
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.75
+        }
+    ]
+},
+{
+    "name": "Kristine Gerina",
+    "age": 20,
+    "year": "2nd Year",
+    "section": "7",
+    "address": {
+        "street": " Barbabe",
+        "barangay": "pulnglupa 3",
+        "city": "Las Pinas City ",
+        "zip_code": 1740
+    },
+    "subjects": [
+        {
+            "subject_name": "Mga Babasahin Hinggil sa Kasaysayan ng Pilipinas",
+            "grade": 1.00
+        },
+        {
+            "subject_name": "Analytic Geometry",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Discrete Structures II",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Digital Logic Design",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Object Oriented Programming",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Information Management",
+            "grade": 1.25
+        },
+        {
+            "subject_name": "Fundamentals of Information Systems",
+            "grade": 1.50
+        },
+        {
+            "subject_name": "Physical Activities towards Health and Fitness 1",
+            "grade": 1.75
+        },
+        {
+            "subject_name": "Mathematics in Modern World",
+            "grade": 1.25
+        }
+    ]
+}
+
+]
